@@ -1,0 +1,91 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+:root{
+	--bg-color:rgba(12, 13, 14, 0.925)
+}
+
+*{
+	font-family: 'Prompt';
+	line-height: 1.4rem;
+	text-decoration: none;
+}
+
+body{
+	background: rgba(12, 12.9, 14.1, 0.925);
+	color: white;
+}
+
+#gb{
+	/* border: 1px solid white ; */
+	width: 100%;
+	height: 48px;
+}
+
+.gb_flex{
+	height: 100%;
+	display: flex;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: right;
+
+}
+
+.gb_item{
+	margin: 10px;
+	width: auto;
+	height: auto;
+}
+
+#ga_ic{
+	width: 20px;
+	height: 20px;
+}
+
+.ga_box{
+	width: 40px;
+	max-width: 40px;
+	height: 40px;
+	max-height: 40px;
+
+}
+
+#pf_ic{
+	border-radius:50px;
+	width: 32px;
+	height: 32px;
+}
+
+.lg_flex{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	justify-content: end;
+}
+.lg_expend{
+	min-height: 92px;
+	height: calc(100% - 560px);
+	height: 30vh;
+}
+
+.s_flex{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+#s_box{
+	border-radius:20px;
+	height: 45px;
+	width: 480px;
+	background-color: rgba(12, 12.9, 14.1, 1);
+	color: white;
+	font-size: 24px;
+}
+
+a{
+	color: white;
+	text-align: center;
+	font-size: 13px;
+	font-weight: lighter;
+}
