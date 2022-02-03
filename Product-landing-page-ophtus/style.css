@@ -69,7 +69,7 @@ footer{
 	grid-area: footer;
 	/* background: linear-gradient(to right, #3056ff, #8830ff); */
 	background-color: black;
-	height: 20vh;
+	height: 18vh;
 }
 
 .center{
